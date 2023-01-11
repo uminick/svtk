@@ -68,14 +68,11 @@ const otherInfos = [
 
 // projects.sort((a,b)=>{return b.no - a.no});
 
-
-const resJson = {};
-resJson["projects"]       = projects;
-resJson["awards"]         = awards;
-resJson["certifications"] = certifications;
-resJson["otherInfos"]     = otherInfos;
-
-
 export async function GET({fetch, request}){
-  return new Response(JSON.stringify(resJson));
+  return new Response(JSON.stringify({
+    projects: projects,
+    awards: awards,
+    certifications: certifications,
+    otherInfos: otherInfos
+  }));
 }

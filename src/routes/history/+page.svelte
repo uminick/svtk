@@ -1,6 +1,9 @@
 <script>
   export let data;
 
+  /**
+   * 최신순으로 정렬된 데이터
+   */
   const projects = data?.projects.sort((a,b)=> b.no - a.no);
 
 </script>
