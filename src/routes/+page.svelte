@@ -7,11 +7,11 @@
 
 <main>
   <div class="relative px-6 lg:px-8">
-    <div class="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
+    <div class="mx-auto max-w-3xl pt-20 pb-32 sm:pt-20 sm:pb-40">
       <div>
         <div>
-          <div class="mt-8 flex gap-x-4 justify-center mb-8">
-            <a href="/history"><img src="/mk-logo-lg.jpg" alt="mk-logo"></a>
+          <div class="mt-2 flex gap-x-4 justify-center mb-8">
+            <a href="/resume"><img src="/mk-logo-lg.jpg" alt="mk-logo"></a>
           </div>
           <h1 class="text-6xl font-bold tracking-tight text-center">{myName}</h1>
           <div class="mt-8 flex gap-x-4 justify-center">
