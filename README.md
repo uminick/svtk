@@ -1,1 +1,1 @@
-site : [`here`](http://kdrd.playmk.kro.kr:5173)
+site : [`here`](http://svtk.playmk.kro.kr)
